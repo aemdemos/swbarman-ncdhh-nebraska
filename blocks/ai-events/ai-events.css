@@ -1,0 +1,65 @@
+
+.ai-events-container > .ai-events-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000080; /* Deep blue background color */
+  padding: 40px 0;
+  max-width: unset; /* Allow full width */
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensure text is readable against the blue background */
+  padding: 20px;
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events h2 {
+  margin: 10px 0;
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events #upcoming-events {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  display: inline-block; /* Ensure the underline fits the text width */
+  width: auto; /* Adjust width to fit content */
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events #view-upcoming-ncdhh-events {
+  margin-top: 10px;
+  margin-bottom: 10px; /* Adjust spacing between elements */
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events p {
+  margin: 10px 0;
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events .button-container {
+  margin: 20px 0; /* Adjust spacing between elements */
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events .button {
+  padding: 10px 40px; /* Adjust padding for better button size */
+  border: 1px solid white;
+  background-color: transparent; /* Remove background color */
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center; /* Ensure text is centered */
+}
+
+.ai-events-container > .ai-events-wrapper > .block.ai-events .button-container a {
+  border-radius: 5px; /* Add border radius for buttons */
+}

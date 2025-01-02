@@ -1,0 +1,41 @@
+
+.ai-footer-wrapper {
+  background-color: #f1f1f1; /* Light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.ai-footer-wrapper > .ai-footer.block > div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  text-align: center;
+}
+
+.ai-footer-wrapper > .ai-footer.block > div > div {
+  display: flex;
+  flex-direction: column; /* Stack text and button vertically */
+  align-items: center;
+}
+
+.ai-footer-wrapper > .ai-footer.block > div > div > p {
+  margin: 0;
+  padding: 10px 0; /* Padding for spacing between elements */
+}
+
+.ai-footer-wrapper > .ai-footer.block > div > div > .button-container {
+  margin-top: 12px; /* Fine-tune the space between text and button */
+}
+
+.ai-footer-wrapper > .ai-footer.block > div > div > .button-container .button {
+  border: 2px solid #000080; /* Dark blue border */
+  padding: 10px 20px; /* Slightly adjust padding to match original */
+  text-decoration: none;
+  color: #000080; /* Dark blue text color */
+  background-color: transparent; /* Remove background color */
+  border-radius: 0; /* Remove rounded corners */
+  font-size: inherit; /* Ensure font size matches the surrounding text */
+}

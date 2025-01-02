@@ -1,0 +1,86 @@
+
+.ai-vision-statement-wrapper {
+    background-color: #6db3b6; /* Teal background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; /* Increase padding for better spacing */
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.ai-vision-statement {
+    text-align: center;
+    max-width: 600px; /* Limits the width for better readability */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ai-vision-statement > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ai-vision-statement h2#about-us {
+    font-size: 1.5rem; /* Adjust as necessary */
+    margin-bottom: 0.5rem;
+    position: relative;
+    color: white; /* Change text color to white */
+    font-weight: 300; /* Adjust font weight to be lighter */
+}
+
+.ai-vision-statement h2#about-us::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin: 0.5rem auto;
+}
+
+.ai-vision-statement h2#ncdhh-vision-statement {
+    font-size: 2rem; /* Adjust as necessary */
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white; /* Change text color to white */
+    font-weight: 300; /* Adjust font weight to be lighter */
+}
+
+.ai-vision-statement p {
+    font-size: 1rem;
+    line-height: 1.75; /* Increase line height for better readability */
+    margin-bottom: 1.5rem;
+    color: white; /* Change text color to white */
+    max-width: 600px; /* Ensure the text is centrally aligned and not too wide */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px; /* Add padding for better readability */
+}
+
+.ai-vision-statement p.button-container {
+    margin-top: 2rem; /* Increase margin for better spacing */
+}
+
+.ai-vision-statement a.button {
+    display: inline-block;
+    padding: 14px 28px; /* Adjust padding for better alignment */
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0; /* Remove rounded corners */
+    background-color: transparent; /* Remove background color */
+}
+
+.ai-vision-statement a.button:hover {
+    background-color: white;
+    color: #6db3b6;
+}
+
+/* Ensuring full width for the block container */
+.ai-vision-statement-container > .ai-vision-statement-wrapper {
+    max-width: unset;
+    padding: 0;
+}

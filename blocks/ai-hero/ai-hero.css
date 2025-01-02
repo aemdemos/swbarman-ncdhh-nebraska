@@ -1,0 +1,54 @@
+
+.ai-hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.ai-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: white;
+  position: relative;
+  padding: 0; /* Remove extra padding */
+}
+
+.ai-hero > div:first-child {
+  display: none; /* Hide the background image container */
+}
+
+.ai-hero > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ai-hero h3 {
+  font-size: 3em; /* Increase text size */
+  font-weight: bold;
+  color: #000080; /* Dark blue color */
+  margin: 0;
+}
+
+.ai-hero p {
+  margin: 20px 0 0; /* Increase space between text and links */
+}
+
+.ai-hero a {
+  color: #000080; /* Dark blue color for links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.ai-hero a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  .ai-hero {
+    padding: 0; /* Remove extra padding */
+  }
+}

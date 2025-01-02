@@ -1,0 +1,32 @@
+
+.ai-img-2-wrapper {
+  display: flex;
+  align-items: center; /* Vertically centers the items */
+  justify-content: center; /* Horizontally centers the items */
+  height: 100%; /* Ensure the wrapper takes full height */
+}
+
+.ai-img-2 {
+  display: flex;
+  flex-direction: row; /* Places child divs side by side */
+  align-items: center; /* Vertically aligns child divs */
+  justify-content: space-between; /* Ensures space between the two side-by-side divs */
+  width: 100%; /* Ensure the block takes full width */
+}
+
+.ai-img-2 > div {
+  flex: 1; /* Makes sure each child div takes equal space */
+  display: flex;
+  flex-direction: row; /* Ensures nested flexboxes are also side by side */
+  align-items: center; /* Vertically centers content inside each div */
+  justify-content: center; /* Centers items inside each div */
+  margin: 0 15px; /* Adds margin to create space around the elements */
+}
+
+.ai-img-2 > div > div {
+  flex: 1; /* Ensures the inner div also takes full space */
+  display: flex;
+  flex-direction: row; /* Ensures nested content is side by side */
+  align-items: center; /* Vertically centers content inside the inner div */
+  justify-content: center; /* Centers items inside the inner div */
+}

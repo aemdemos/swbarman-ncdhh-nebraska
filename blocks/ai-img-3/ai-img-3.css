@@ -1,0 +1,46 @@
+
+.ai-img-3-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Assuming a light background color similar to the image */
+  background-image: url('path/to/your/image.jpg'); /* Replace with the actual path to the image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; /* Ensure it covers the full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+.ai-img-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.ai-img-3 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.ai-img-3 > div > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}

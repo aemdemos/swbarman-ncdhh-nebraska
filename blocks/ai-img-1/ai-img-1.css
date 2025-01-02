@@ -1,0 +1,25 @@
+
+.ai-img-1-wrapper {
+    display: flex; /* Ensures the inner divs are displayed in a flex container */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: auto; /* Ensures the height adjusts to content */
+    background: linear-gradient(to bottom, #d1f4ff, #b0e0f8); /* Uses a gradient to simulate the background image */
+    background-size: cover; /* Ensures the background covers the entire container */
+    background-position: center; /* Centers the background */
+}
+
+.ai-img-1 {
+    display: flex; /* Ensures the inner divs are displayed in a flex container */
+    flex-direction: row; /* Ensures the inner divs are side by side */
+    width: 100%; /* Ensures the block spans the entire width */
+}
+
+.ai-img-1 > div {
+    display: flex; /* Ensures the nested divs are displayed in a flex container */
+    flex-direction: row; /* Ensures the inner divs are side by side */
+    flex: 1; /* Each second-level div takes up an equal amount of space */
+    margin: 10px; /* Adds some space between the divs */
+    justify-content: center; /* Centers the content within each nested div */
+    align-items: center; /* Centers the content vertically within each nested div */
+}

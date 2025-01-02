@@ -1,0 +1,80 @@
+
+/* Wrapper styling to display the columns side by side */
+.ai-cards-wrapper > .ai-cards > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* Styling each li element as a column */
+.ai-cards-wrapper > .ai-cards > ul > li {
+  flex: 1;
+  border-left: 1px solid #e0e0e0; /* Match vertical line between columns */
+  padding: 0 20px; /* Add padding to the left and right */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center align text */
+  background-color: var(--background-color);
+}
+
+/* Remove the left border for the first column */
+.ai-cards-wrapper > .ai-cards > ul > li:first-child {
+  border-left: none;
+}
+
+/* Styling the image container to center the image */
+.ai-cards-wrapper > .ai-cards .ai-cards-card-image {
+  margin: 20px 0; /* Add space above and below the image */
+  display: flex;
+  justify-content: center;
+}
+
+.ai-cards-wrapper > .ai-cards .ai-cards-card-image img {
+  width: auto; /* Remove width to keep original aspect ratio */
+  height: auto;
+  max-width: 100px; /* Limit the maximum width of the image */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Styling the title to add margin for spacing */
+.ai-cards-wrapper > .ai-cards .ai-cards-card-body h2 {
+  margin: 20px 0;
+  font-weight: bold;
+  color: #2e2e9e; /* Set the color of the title */
+}
+
+/* Styling the description */
+.ai-cards-wrapper > .ai-cards .ai-cards-card-body p {
+  margin: 10px 0; /* Add space above and below the description */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Styling the button container */
+.ai-cards-wrapper > .ai-cards .button-container {
+  margin-top: 20px; /* Add space above the button */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+}
+
+/* Styling the button */
+.ai-cards-wrapper > .ai-cards .button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #2e2e9e;
+  color: #2e2e9e;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: transparent; /* Remove background color */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+/* Button hover effect */
+.ai-cards-wrapper > .ai-cards .button:hover {
+  background-color: #2e2e9e;
+  color: #fff;
+}
